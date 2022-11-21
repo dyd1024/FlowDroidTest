@@ -20,18 +20,14 @@ import java.util.Iterator;
 import java.util.List;
 
 public class FlowDroidDemo {
-
-    protected static String classname = "test.TestInojava";
     protected static List<String> sources;
-    protected static final String source1 = "<gov.nasa.jpf.jdart.Debug: char makeConcolicChar(java.lang.String,java.lang.String)>";
-
     protected static List<String> sinks;
-//    protected static final String sink1 = "<org.testCase.SourceSink: void sink(java.lang.String)>";
-//    protected static final String sink2 = "<org.testCase.SourceSink: void sink(java.lang.String,int)>";
-//    protected static final String sink3 = "<org.testCase.SourceSink: void sink(java.lang.String,java.lang.String)>";
-    protected static final String sink1 = "<com.amazon.ion.impl.IonReaderTextRawTokensX: int nextToken()>";
-    protected static final String sink2 = "<com.amazon.ion.impl.IonReaderTextRawX: int get_state_after_container(com.amazon.ion.IonType)>";
-    protected static final String sink3 = "<com.amazon.ion.impl.IonReaderTextRawX: int get_state_after_annotation()>";
+    protected static String classname = "test.testFastjsonDev";
+    protected static final String source1 = "<gov.nasa.jpf.jdart.SymbolicString: java.lang.String makeConcolicString(java.lang.String)>";
+    protected static final String sink1 = "<com.alibaba.fastjson.parser.deserializer.IntegerDeserializer: java.lang.Object deserialze(com.alibaba.fastjson.parser.DefaultJSONParser,java.lang.reflect.Type,java.lang.Object)>";
+//    protected static final String sink1 = "<com.alibaba.fastjson.parser.deserializer.ObjectDeserializer: java.lang.Object deserialze(com.alibaba.fastjson.parser.DefaultJSONParser,java.lang.reflect.Type,java.lang.Object)>";
+//    protected static final String sink1 = "<com.alibaba.fastjson.parser.DefaultJSONParser: java.lang.Object parse()>";
+//    protected static final String sink1 = "<com.alibaba.fastjson.parser.DefaultJSONParser: java.lang.Object parseObject(java.util.Map,java.lang.Object)>";
 
     protected static final String entry_point = "<"+classname+": void main(java.lang.String[])>";
 
@@ -46,10 +42,9 @@ public class FlowDroidDemo {
 
         sources = new ArrayList<String>();
         sources.add(source1);
+
         sinks = new ArrayList<String>();
         sinks.add(sink1);
-        sinks.add(sink2);
-        sinks.add(sink3);
 
         List<String> epoints = new ArrayList<String>();
         epoints.add(entry_point);
