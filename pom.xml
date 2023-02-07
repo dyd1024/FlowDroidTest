@@ -18,7 +18,7 @@
         <dependency>
             <groupId>org.soot-oss</groupId>
             <artifactId>soot</artifactId>
-            <version>4.2.1</version>
+            <version>4.3.0</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -58,35 +58,35 @@
             <version>1.7.5</version>
         </dependency>
 
-        <dependency>
-            <groupId>de.fraunhofer.iem.secucheck</groupId>
-            <artifactId>de.fraunhofer.iem.secucheck.analysis.configuration</artifactId>
-            <version>SCC-1.1.0</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>de.fraunhofer.iem.secucheck</groupId>-->
+<!--            <artifactId>de.fraunhofer.iem.secucheck.analysis.configuration</artifactId>-->
+<!--            <version>SCC-1.1.0</version>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>de.fraunhofer.iem.secucheck</groupId>
-            <artifactId>de.fraunhofer.iem.secucheck.analysis.result</artifactId>
-            <version>SCC-1.1.0</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>de.fraunhofer.iem.secucheck</groupId>-->
+<!--            <artifactId>de.fraunhofer.iem.secucheck.analysis.result</artifactId>-->
+<!--            <version>SCC-1.1.0</version>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>de.fraunhofer.iem.secucheck</groupId>
-            <artifactId>de.fraunhofer.iem.secucheck.analysis.query</artifactId>
-            <version>SCC-1.1.0</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>de.fraunhofer.iem.secucheck</groupId>-->
+<!--            <artifactId>de.fraunhofer.iem.secucheck.analysis.query</artifactId>-->
+<!--            <version>SCC-1.1.0</version>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>de.fraunhofer.iem.secucheck</groupId>
-            <artifactId>de.fraunhofer.iem.secucheck.analysis.datastructures</artifactId>
-            <version>SCC-1.1.0</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>de.fraunhofer.iem.secucheck</groupId>-->
+<!--            <artifactId>de.fraunhofer.iem.secucheck.analysis.datastructures</artifactId>-->
+<!--            <version>SCC-1.1.0</version>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>de.fraunhofer.iem.secucheck</groupId>
-            <artifactId>de.fraunhofer.iem.secucheck.analysis.implementation</artifactId>
-            <version>SCC-1.1.0</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>de.fraunhofer.iem.secucheck</groupId>-->
+<!--            <artifactId>de.fraunhofer.iem.secucheck.analysis.implementation</artifactId>-->
+<!--            <version>SCC-1.1.0</version>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>de.fraunhofer.sit.sse.flowdroid</groupId>
